@@ -1,0 +1,102 @@
+.profile-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding: 20px;
+}
+
+.profile-card {
+  background: white;
+  border-radius: 12px;
+  padding: 40px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 500px;
+}
+
+.profile-card h1 {
+  margin: 0 0 10px 0;
+  font-size: 28px;
+  text-align: center;
+  color: #333;
+}
+
+.profile-card p {
+  text-align: center;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.profile-card select {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 14px;
+  transition: border-color 0.3s;
+  box-sizing: border-box;
+  background: white;
+}
+
+.profile-card select:focus {
+  outline: none;
+  border-color: #667eea;
+}
+
+.profile-page {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.profile-page h1 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.profile-page > p {
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.profile-form {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-form select {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 14px;
+  transition: border-color 0.3s;
+  box-sizing: border-box;
+  background: white;
+}
+
+.profile-form select:focus {
+  outline: none;
+  border-color: #667eea;
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.form-group small {
+  color: #999;
+  font-size: 12px;
+  margin-top: 5px;
+  display: block;
+}
+
+.profile-form input:disabled {
+  background: #f5f5f5;
+  cursor: not-allowed;
+}
