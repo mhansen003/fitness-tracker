@@ -269,3 +269,4 @@ Mark Hansen (mhansen003)
 ## Support
 
 For issues or questions, please create an issue on GitHub.
+# Fitness Tracker - Deployed on Vercel
